@@ -23,11 +23,10 @@
         <hr>
 
         <div class="sites">
-          <el-button type="success">爱奇艺</el-button>
-          <el-button type="info">芒果TV</el-button>
-          <el-button type="warning">腾讯视频</el-button>
-          <el-button type=danger>优酷土豆</el-button>
-
+          <el-button class="site" type="success">爱奇艺</el-button>
+          <el-button class="site" type="info">芒果TV</el-button>
+          <el-button class="site" type="warning">腾讯视频</el-button>
+          <el-button class="site" type=danger>优酷土豆</el-button>
         </div>
       </div>
     </el-card>
@@ -118,8 +117,9 @@ export default {
 <style scoped>
 .box-card {
   width: 80%;
-  margin: 10% auto;
-  height: 60vh;
+  margin: auto;
+  margin-top: 15vh;
+  height: 65vh;
 }
 .parse {
   margin: 0px;
@@ -139,5 +139,8 @@ hr {
   margin-bottom: 60px;
   margin-top: 60px;
   width: 90%;
+}
+.site {
+  margin-top: 5px;
 }
 </style>
